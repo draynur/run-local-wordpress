@@ -21,7 +21,7 @@ curl -O https://raw.githubusercontent.com/aaemnnosttv/wp-sqlite-db/master/src/db
 cd ../
 
 # Install downloaded wordpress, set real data and set desired url:port
-wp core install --title=Dev --admin_name=admin --admin_email="admin@example.com" --admin_password=pass --url="http://localhost:8080/"
+wp core install --title=Dev --admin_name=admin --admin_email="admin@example.com" --admin_password=pass --url="http://localhost:9069/"
 
 # Run the server. Would run using PHP -S builtin server
 # Remember to edit the right php.ini located at same dir than php.exe and not the one with apache's files
